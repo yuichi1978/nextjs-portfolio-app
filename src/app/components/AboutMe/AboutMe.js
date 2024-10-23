@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { AboutData } from "@/app/data";
+import Image from "next/image";
 import { Hind } from "next/font/google";
 
 import "./AboutMe.css"
@@ -87,9 +88,9 @@ export default function AboutMe() {
             >
               My name is Ehizeex. A professional and enthusiastic full-stack
               developer and designer. However, I am more than just your average
-              programmer or designer. I've been running my own business for the
+              programmer or designer. I been running my own business for the
               past 7 years and I was continually coming up with new concepts.
-              I'm very fluid and never stop learning and adapting to new
+              I very fluid and never stop learning and adapting to new
               situations.
             </p>
             <p
@@ -98,9 +99,9 @@ export default function AboutMe() {
             >
               My name is Ehizeex. A professional and enthusiastic full-stack
               developer and designer. However, I am more than just your average
-              programmer or designer. I've been running my own business for the
+              programmer or designer. I been running my own business for the
               past 7 years and I was continually coming up with new concepts.
-              I'm very fluid and never stop learning and adapting to new
+              I very fluid and never stop learning and adapting to new
               situations.
             </p>
             <p
@@ -109,9 +110,9 @@ export default function AboutMe() {
             >
               My name is Ehizeex. A professional and enthusiastic full-stack
               developer and designer. However, I am more than just your average
-              programmer or designer. I've been running my own business for the
+              programmer or designer. I been running my own business for the
               past 7 years and I was continually coming up with new concepts.
-              I'm very fluid and never stop learning and adapting to new
+              I very fluid and never stop learning and adapting to new
               situations.
             </p>
           </section>
@@ -146,7 +147,7 @@ export default function AboutMe() {
                   style={{ boxShadow: "#48AFDE -5px 10px 20px 0px" }}
                 >
                   <div className="w-16 h-16 sm:w-10 sm:h-10 lg:w-16 lg:h-16">
-                    <img src={item.img} />
+                    <Image src={item.img} width={100} height={100} alt="" />
                   </div>
                   {/* 選択したインデックスが等しい場合、テキストを白く表示 */}
                   <h4

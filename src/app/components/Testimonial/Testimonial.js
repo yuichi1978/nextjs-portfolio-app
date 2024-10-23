@@ -156,7 +156,7 @@ export default function Testmonial() {
                     <p
                       className={`mb-6 font-[200] font-recoletaBlack min-h-[70px] text-[15px] mt-3`}
                     >
-                      man I'm not gay but I love you for what you did. thank
+                      man I not gay but I love you for what you did. thank
                       you. nobody.. seriously nobody teaches this way explaining
                       every class of tailwind and everything you write. people
                       just say that go and download my code from github. but man
@@ -200,7 +200,7 @@ export default function Testmonial() {
                     <p
                       className={`mb-6 font-[200] font-recoletaBlack min-h-[70px] text-[15px] mt-3`}
                     >
-                      man I'm not gay but I love you for what you did. thank
+                      man I not gay but I love you for what you did. thank
                       you. nobody.. seriously nobody teaches this way explaining
                       every class of tailwind and everything you write. people
                       just say that go and download my code from github. but man
@@ -244,7 +244,7 @@ export default function Testmonial() {
                     <p
                       className={`mb-6 font-[200] font-recoletaBlack min-h-[70px] text-[15px] mt-3`}
                     >
-                      man I'm not gay but I love you for what you did. thank
+                      man I not gay but I love you for what you did. thank
                       you. nobody.. seriously nobody teaches this way explaining
                       every class of tailwind and everything you write. people
                       just say that go and download my code from github. but man
@@ -288,7 +288,7 @@ export default function Testmonial() {
                     <p
                       className={`mb-6 font-[200] font-recoletaBlack min-h-[70px] text-[15px] mt-3`}
                     >
-                      man I'm not gay but I love you for what you did. thank
+                      man I not gay but I love you for what you did. thank
                       you. nobody.. seriously nobody teaches this way explaining
                       every class of tailwind and everything you write. people
                       just say that go and download my code from github. but man

@@ -14,7 +14,7 @@ const hind = Hind({
   weight: ["300", "400", "500", "600", "700"],
 });
 
-export default function page() {
+export default function Page() {
   // ユーザーが入力フィールド内に入力を開始するとそのアクションによって更新がトリガーされる実装
   const [inputText, setInputText] = useState({
     name: "",
@@ -297,7 +297,7 @@ export default function page() {
                 bg-[#48AFDE] text-white mb-[30px] px-4 py-2 hover:bg-[#223740]
                   transition-colors rounded-xl"
                 >
-                  Let's chat
+                  Let chat
                 </button>
               </div>
             </div>
