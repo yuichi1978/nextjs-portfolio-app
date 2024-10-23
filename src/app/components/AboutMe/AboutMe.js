@@ -193,7 +193,7 @@ export default function AboutMe() {
                 <p
                   className={`
                 text-[#47626D] text-lg sm:text-base lg:text-xl 
-                  transition duration-500 transform opacity-100 ${find.className}
+                  transition duration-500 transform opacity-100 ${hind.className}
                   `}
                 >
                   My Tech Skills Are:
