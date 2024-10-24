@@ -88,7 +88,7 @@ export default function Page() {
       <ToastContainer />
       <div
         className="
-        flex flex-col items-center justify-center w-full pt-[80px] pb-[80px] mt-4"
+        flex flex-col items-center justify-center w-full pt-[80px] lg:pb-[80px] mt-4"
       >
         <div
           className='
@@ -126,11 +126,13 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="px-[20px]">
-          <div className="sm:flex gap-[20px] mt-[50px] max-w-[1105px] w-full h-full">
-            <div className="flex flex-col flex-1 xl:flex-row gap-[20px]">
+        <div className="px-[20px] lg:px-0">
+          <div className="sm:flex gap-[20px] xl:gap-0 mt-[50px] max-w-[1105px] w-full h-full">
+            <div className="
+            grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-[300px] md:w-full h-full lg:mb-0 xl:flex-row 
+            gap-[20px] md:gap-7 xl:gap-6">
               <div
-                className="flex flex-col py-[35px] px-[45px] rounded-lg shadow-lg cursor-pointer
+                className="grid justify-center py-[35px] px-[45px] rounded-lg shadow-lg cursor-pointer
                 transition-all transform duration-300 hover:bg-[#223740] hover:text-white
                 hover:-translate-y-4 bg-white"
                 style={{ boxShadow: "#48AFDE -1px 1px 10px 0px" }}
@@ -158,9 +160,9 @@ export default function Page() {
               </div>
 
               <div
-                className="flex flex-col py-[35px] px-[45px] rounded-lg shadow-lg
+                className="grid justify-center py-[35px] px-[45px] rounded-lg shadow-lg
                 cursor-pointer transition-all transform duration-300 hover:bg-[#223740]
-              hover:text-white hover:-translate-y-4 bg-white"
+                hover:text-white hover:-translate-y-4 bg-white"
                 style={{ boxShadow: "#48AFDE -1px 1px 10px 0px" }}
               >
                 <div className="flex items-center gap-[15px]">
@@ -184,12 +186,10 @@ export default function Page() {
                   <p className="text-[#666666]">Mob: +2372084620</p>
                 </div>
               </div>
-            </div>
 
-            <div className="flex flex-col flex-1 xl:flex-row gap-[20px]">
               <div
                 className="
-                flex flex-col py-[35px] px-[45px] rounded-lg shadow-lg cursor-pointer 
+                grid justify-center py-[35px] px-[45px] rounded-lg shadow-lg cursor-pointer 
                 transition-all transform duration-300 hover:bg-[#223740]
               hover:text-white hover:-translate-y-4 bg-white"
                 style={{ boxShadow: "#48AFDE -1px 1px 10px 0px" }}
@@ -218,7 +218,7 @@ export default function Page() {
 
               <div
                 className="
-                flex flex-col py-[35px] px-[45px] rounded-lg shadow-lg 
+                grid justify-center py-[35px] px-[45px] rounded-lg shadow-lg 
                 cursor-pointer transition-all transform duration-300
               hover:bg-[#223740] hover:text-white hover:-translate-y-4 bg-white"
                 style={{ boxShadow: "#48AFDE -1px 1px 10px 0px" }}
@@ -258,7 +258,7 @@ export default function Page() {
       >
         <div
           className="
-          hidden md:block relative w-[50%] xl:w-[50%] h-[550px] rounded-xl 
+          hidden xl:block relative w-[50%] xl:w-[50%] h-[550px] rounded-xl 
           md:w-full lg:w-[50%] bg-center bg-cover"
           style={{
             backgroundImage: `url("/customer-service.jpeg")`,
@@ -384,9 +384,10 @@ export default function Page() {
             </div>
             <div>
               {loading && (
-                <div 
-                className="mb-3 text-center ml-5 w-6 h-6 rounded-full
-                border-t-2 border-blue-600 border-solid animate-spin"></div>
+                <div
+                  className="mb-3 text-center ml-5 w-6 h-6 rounded-full
+                border-t-2 border-blue-600 border-solid animate-spin"
+                ></div>
               )}
               <button
                 className="
